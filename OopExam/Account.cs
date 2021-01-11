@@ -20,11 +20,11 @@ namespace OopExam
           //Account constructor
           public Account(string firstname, string lastName, double balance, string interestDate, int accountNumber)
           {
-              FirstName = firstname;
-              LastName = lastName;
-              Balance = balance;
-              InterestDate = DateTime.Now.ToString("dd-MM-yyyy");
-              AccountNumber = accountNumber;
+            FirstName = firstname;
+            LastName = lastName;
+            Balance = balance;
+            InterestDate = interestDate;
+            AccountNumber = accountNumber;
           }
 
           public void Deposit(int deposit)
@@ -51,13 +51,13 @@ namespace OopExam
             //overrides the abstract method in the base class and returns interest for current account
             public override double CalculateInterest()
             {
-                return Balance * 3;
+                return Balance * InterestRate;
             }
 
             //current account constructor which inherits base class constructor
-            public CurrentAccount(string firstname, string lastname, double balance, string interestDate, int accountNumber, int interestRate) : base(firstname, lastname, balance, interestDate, accountNumber)
+            public CurrentAccount(string firstname, string lastname, double balance, string interestDate, int accountNumber) : base(firstname, lastname, balance, interestDate, accountNumber)
             {
-                InterestRate = interestRate;
+                InterestRate = 3;
             }
 
             //ToString method that formats the current account output into a string
@@ -81,9 +81,9 @@ namespace OopExam
             }
 
             //savings account constructor that inherits base class constructor
-            public SavingsAccount(string firstname, string lastname, double balance, string interestDate, int accountNumber, int interestRate) : base(firstname, lastname, balance, interestDate, accountNumber)
+            public SavingsAccount(string firstname, string lastname, double balance, string interestDate, int accountNumber) : base(firstname, lastname, balance, interestDate, accountNumber)
             {
-                InterestRate = interestRate;
+                InterestRate = 6;
             }
 
             //ToString method that formats the savings account output into a string
