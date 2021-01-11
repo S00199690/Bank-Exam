@@ -9,27 +9,27 @@
     <Grid>
         <CheckBox x:Name="cbxCurrAccounts" Content="Current Accounts" HorizontalAlignment="Left" Margin="76,53,0,0" VerticalAlignment="Top" Click="cbxFullTime_Click"/>
         <CheckBox x:Name="cbxSavAccounts" Content="Savings Accounts" HorizontalAlignment="Left" Margin="206,53,0,0" VerticalAlignment="Top" Click="cbxFullTime_Click"/>
-        <TextBox x:Name="tbxFirstName" HorizontalAlignment="Left" Height="23" Margin="502,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="tbxSurname" HorizontalAlignment="Left" Height="23" Margin="502,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="tbxSalary" HorizontalAlignment="Left" Height="23" Margin="502,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="tbxHoursWorked" HorizontalAlignment="Left" Height="23" Margin="502,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="tbxHourlyRate" HorizontalAlignment="Left" Height="23" Margin="502,307,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbxHourlyRate" HorizontalAlignment="Left" Height="23" Margin="538,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btnDeposit" Content="Deposit" HorizontalAlignment="Left" Margin="681.577,103,0,0" VerticalAlignment="Top" Width="75"/>
         <Button x:Name="btnWithdraw" Content="Withdraw" HorizontalAlignment="Left" Margin="681.577,148,0,0" VerticalAlignment="Top" Width="75"/>
         <Button x:Name="btnInterest" Content="Interest" HorizontalAlignment="Left" Margin="682,189,0,0" VerticalAlignment="Top" Width="75"/>
         <Label x:Name="lblFirstName" Content="First Name" HorizontalAlignment="Left" Margin="407,91,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblSurname" Content="Surname" HorizontalAlignment="Left" Margin="407,137,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblSalary" Content="Salary" HorizontalAlignment="Left" Margin="407,201,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.682,2.156"/>
-        <Label x:Name="lblHoursWorked" Content="Hours Worked" HorizontalAlignment="Left" Margin="407,245,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.682,2.156"/>
-        <Label x:Name="lblHourlyRate" Content="Hourly Rate" HorizontalAlignment="Left" Margin="407,304,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.682,2.156"/>
+        <Label x:Name="lblLastName" Content="Last Name" HorizontalAlignment="Left" Margin="407,137,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblBalance" Content="Balance" HorizontalAlignment="Left" Margin="409,183,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.682,2.156"/>
+        <Label x:Name="lblAccountType" Content="Account Type" HorizontalAlignment="Left" Margin="409,230,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.682,2.156"/>
+        <Label x:Name="lblBalance1" Content="Balance" HorizontalAlignment="Left" Margin="407,273,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.682,2.156"/>
         <Label x:Name="lblAccounts" Content="Accounts List" HorizontalAlignment="Left" Margin="46,85,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.297,-0.437"/>
         <ListBox x:Name="lbxAccounts" HorizontalAlignment="Left" Height="260" Margin="37,116,0,0" VerticalAlignment="Top" Width="296" RenderTransformOrigin="0.146,0.474" SelectionChanged="lbxEmployees_SelectionChanged"/>
-        <RadioButton x:Name="rbtnFullTime" Content="FT" HorizontalAlignment="Left" Margin="502,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.391,1.816" GroupName="EmployeeType" Checked="rbtnFullTime_Checked"/>
-        <RadioButton x:Name="rbtnPartTime" Content="PT" HorizontalAlignment="Left" Margin="576,174,0,0" VerticalAlignment="Top" GroupName="EmployeeType" Checked="rbtnPartTime_Checked"/>
-        <Label x:Name="lblMontlyPay" Content="Monthly Pay" HorizontalAlignment="Left" Margin="407,358,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblTransactionAmt" Content="Transaction Amount" HorizontalAlignment="Left" Margin="407,358,0,0" VerticalAlignment="Top"/>
         <TextBlock x:Name="tbkMonthlyPay" HorizontalAlignment="Left" Margin="502,363,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <Label x:Name="lblEuro" Content="€" HorizontalAlignment="Left" Margin="486,358,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.631,0.559"/>
         <Label x:Name="lblAccDetails" Content="Account Details" HorizontalAlignment="Left" Margin="409,60,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblInterestDate" Content="Interest Date" HorizontalAlignment="Left" Margin="409,316,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbxFirstName" HorizontalAlignment="Left" Margin="517,96,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbxLastName" HorizontalAlignment="Left" Margin="517,142,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbxBalance" HorizontalAlignment="Left" Margin="517,189,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbxAccountType" HorizontalAlignment="Left" Margin="517,235,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbxBalance1" HorizontalAlignment="Left" Margin="516,278,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbxInterestDate" HorizontalAlignment="Left" Margin="515,321,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
