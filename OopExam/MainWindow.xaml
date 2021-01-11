@@ -12,7 +12,7 @@
         <TextBox x:Name="tbxHourlyRate" HorizontalAlignment="Left" Height="23" Margin="538,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btnDeposit" Content="Deposit" HorizontalAlignment="Left" Margin="681.577,103,0,0" VerticalAlignment="Top" Width="75"/>
         <Button x:Name="btnWithdraw" Content="Withdraw" HorizontalAlignment="Left" Margin="681.577,148,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="btnInterest" Content="Interest" HorizontalAlignment="Left" Margin="682,189,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btnInterest" Content="Interest" HorizontalAlignment="Left" Margin="682,194,0,0" VerticalAlignment="Top" Width="75"/>
         <Label x:Name="lblFirstName" Content="First Name" HorizontalAlignment="Left" Margin="407,91,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblLastName" Content="Last Name" HorizontalAlignment="Left" Margin="407,137,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblBalance" Content="Balance" HorizontalAlignment="Left" Margin="409,183,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.682,2.156"/>
@@ -28,8 +28,8 @@
         <TextBlock x:Name="tbxLastName" HorizontalAlignment="Left" Margin="517,142,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
         <TextBlock x:Name="tbxBalance" HorizontalAlignment="Left" Margin="517,189,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
         <TextBlock x:Name="tbxAccountType" HorizontalAlignment="Left" Margin="517,235,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        <TextBlock x:Name="tbxBalance1" HorizontalAlignment="Left" Margin="516,278,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-        <TextBlock x:Name="tbxInterestDate" HorizontalAlignment="Left" Margin="515,321,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="tbxBalance1" HorizontalAlignment="Left" Margin="517,278,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="0.491,1.416"/>
+        <TextBlock x:Name="tbxInterestDate" HorizontalAlignment="Left" Margin="517,321,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="0.479,-0.276"/>
 
     </Grid>
 </Window>
