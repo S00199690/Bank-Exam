@@ -28,7 +28,7 @@
         <TextBlock x:Name="tbkBalance1" HorizontalAlignment="Left" Margin="517,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.491,1.416"/>
         <TextBlock x:Name="tbkInterestDate" HorizontalAlignment="Left" Margin="517,321,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.479,-0.276"/>
         <CheckBox x:Name="cbxCurrAccounts" Content="Current Accounts" HorizontalAlignment="Left" Margin="46,48,0,0" VerticalAlignment="Top" Click="cbxCurrAccounts_Click"/>
-        <CheckBox x:Name="cbxSavAccounts" Content="Savings Account" HorizontalAlignment="Left" Margin="214,48,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbxSavAccounts" Content="Savings Account" HorizontalAlignment="Left" Margin="214,48,0,0" VerticalAlignment="Top" Click="cbxCurrAccounts_Click"/>
         <ListBox x:Name="lbxAccounts" HorizontalAlignment="Left" Height="274" Margin="46,127,0,0" VerticalAlignment="Top" Width="274" SelectionChanged="lbxAccounts_SelectionChanged"/>
 
     </Grid>

@@ -16,11 +16,13 @@ using System.Windows.Shapes;
 
 namespace OopExam
 {
+    //https://github.com/S00199690/Bank-Exam github
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        //lists
         List<Account> accounts = new List<Account>();
         ObservableCollection<Account> filteredAccounts = new ObservableCollection<Account>();
         public MainWindow()
